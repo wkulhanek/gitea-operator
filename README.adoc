@@ -1,5 +1,11 @@
 = Gitea Operator
 
+== This repo is deprecated
+
+This repo is using the Operator SDK 0.17. In the Operator SDK 1.x major things changed. Therefore a new repo was created (in a more official location) to track development of the operator for stable release:
+
+https://github.com/redhat-gpte-devopsautomation/gitea-operator.git
+
 == Overview
 
 This repository contains the code to build a Gitea Operator for Red Hat OpenShift Container Platform. It will not run on Kubernetes because it uses the `Route` object to provide access to Gitea.
